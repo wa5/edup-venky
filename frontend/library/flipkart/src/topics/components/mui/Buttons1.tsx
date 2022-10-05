@@ -3,7 +3,7 @@ import React from 'react';
 
 export interface IButtons1Props{};
 
-const  Buttons1:React.FC<IButtons1Props>=(props)=>{
+export const  Buttons1:React.FC<IButtons1Props>=(props)=>{
     return (<>
     <Button variant="text">Text</Button>
 <Button variant="contained">Contained</Button>
@@ -11,4 +11,3 @@ const  Buttons1:React.FC<IButtons1Props>=(props)=>{
     </>);
 };
 
-export default Buttons1;
